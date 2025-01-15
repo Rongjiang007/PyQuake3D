@@ -17,7 +17,7 @@ For example:
 ```
 To execute benchmarks like BP5-QD, use:
 ```bash
-python src/main.py -g --examples/cascadia/cascadia35km_ele4.msh -p --examples/cascadia/parameter.txt
+python src/main.py -g examples/cascadia/cascadia35km_ele4.msh -p examples/cascadia/parameter.txt
 ```
 Ensure you modify the input parameter (`parameter.txt`) as follows:
 - `Corefunc directory`: `bp5t_core`
