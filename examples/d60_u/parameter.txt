@@ -1,0 +1,70 @@
+#Files
+Corefunc directory: d60_core
+
+#Processors
+#50 320 30 319 10 313 5 572 seconds
+Processors: 20
+Batch_size: 20
+H-matrix: False
+GPU: True
+
+#Property
+Lame constants: 32038120320.0
+Shear modulus: 32038120320.0
+Rock density: 2670
+InputHetoparamter: False
+Inputparamter file: bp5tparam.dat
+
+#Stress
+Half space: True
+Vertical principal stress: 1.0
+Maximum horizontal principal stress: 1.6
+Minimum horizontal principal stress: 0.6
+Angle between ssh1 and X-axis: 90
+Vertical principal stress value: 26
+Vertical principal stress value varies with depth: False
+Turnning depth: 10000
+Normal traction solved from stress tensor: False
+Shear traction solved from stress tensor: False
+Rake solved from stress tensor: False
+Fix_rake: -90
+Shear traction in VS region: 0.53
+Shear traction in VW region: 0.78
+Shear traction in nucleation region: 1.0
+Widths of VS region: 12000
+Widths of surface VS region: 3000
+Transition region ratio from VS to VW region: 3000
+
+
+#Friction
+Reference slip rate: 1e-6
+Reference friction coefficient: 0.6
+Rate-and-state parameters a in VS region: 0.03
+Rate-and-state parameters b in VS region: 0.018
+Characteristic slip distance in VS region: 0.12
+Rate-and-state parameters a in VW region: 0.006
+Rate-and-state parameters b in VW region: 0.018
+Characteristic slip distance in VW region: 0.12
+Rate-and-state parameters a in nucleation region: 0.006
+Rate-and-state parameters b in nucleation region: 0.018
+Characteristic slip distance in nucleation region: 0.12
+Initial slip rate in nucleation region: 3e-2
+Plate loading rate: 1e-9
+
+#nucleartion
+Set_nucleation: False
+Nuclea_posx: 34000
+Nuclea_posy: 15000
+Nuclea_posz: -15000
+Radius of nucleation: 8000
+
+#output
+totaloutputsteps: 10000
+outsteps: 50
+outputvtk: True
+outputmatrix: False
+
+
+
+
+
