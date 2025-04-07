@@ -18,6 +18,8 @@ cupy=10.6.0
 matplotlib==3.2.2
 scipy==1.10.1
 joblib==0.16.0
+Use pipe to complete the quick installation:
+pip install -r requirements.txt
 
 ## Running the Script
 
@@ -37,10 +39,6 @@ Ensure you modify the input parameter (`parameter.txt`) as follows:
 - `Inputparamter file`: `bp5tparam.dat`
 
 - 
-requirement of python library
-python>=3.8
-numpy>=1.2
-ctypes==1.1
-cupy=10.6.0
+
 
 Please refer to doc.pdf for more details.
