@@ -47,6 +47,7 @@ Ensure you modify the input parameter (`parameter.txt`) as follows:
 📧 Contact
 For questions, suggestions, or collaboration, please contact:
 📫 Email: rongjiang.igp@hotmail.com
+          luca.dalzilio@ntu.edu.sg
 
 
 
