@@ -11,15 +11,15 @@ PyQuake3D is a Python-based Boundary Element Method (BEM) code for simulating se
 -  Suitable for small model earthquake cycle simulation within 4w grid
 
 ## 📦 Installation
-requirement of python library
-python>=3.8
-numpy>=1.2
-cupy=10.6.0
-matplotlib==3.2.2
-scipy==1.10.1
-joblib==0.16.0
-Use pipe to complete the quick installation:
-pip install -r requirements.txt
+-  requirement of python library
+-  python>=3.8
+-  numpy>=1.2
+-  cupy=10.6.0
+-  matplotlib==3.2.2
+-  scipy==1.10.1
+-  joblib==0.16.0
+  Use pipe to complete the quick installation:
+  pip install -r requirements.txt
 
 ## Running the Script
 
