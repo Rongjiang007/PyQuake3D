@@ -18,6 +18,7 @@ PyQuake3D is a Python-based Boundary Element Method (BEM) code for simulating se
 -  matplotlib==3.2.2
 -  scipy==1.10.1
 -  joblib==0.16.0
+  
   Use pipe to complete the quick installation:
 ```bash
 pip install -r requirements.txt
