@@ -45,9 +45,13 @@ Ensure you modify the input parameter (`parameter.txt`) as follows:
 - `Inputparamter file`: `bp5tparam.dat`
 
 📧 Contact
+
 For questions, suggestions, or collaboration, please contact:
-📫 Email: rongjiang.igp@hotmail.com
-          luca.dalzilio@ntu.edu.sg
+
+📫 Email: 
+rongjiang.igp@hotmail.com
+
+luca.dalzilio@ntu.edu.sg
 
 
 
