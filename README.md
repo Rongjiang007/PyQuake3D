@@ -9,8 +9,9 @@ Please refer to [Code Manual (PDF)](doc.pdf) for more details.
 
 -  3D non-planar quasi-dynamic earthquake cycle simulations
 -  Support for rate-and-state aging friction laws
--  GPU acceleration support 
--  Suitable for small model earthquake cycle simulation within 40,000 elements
+-  Support for Hierarchical matrix calculation
+-  MPI acceleration support 
+-  Suitable for large model earthquake cycle simulation
 
 ## 📦 Installation
 -  requirement of python library
