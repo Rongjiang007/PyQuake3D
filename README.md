@@ -34,7 +34,7 @@ To run the PyQuake3D script, use the following command:
 ```bash
 mpirun -np 10 python -g --inputgeo <input_geometry_file> -p --inputpara <input_parameter_file>
 ```
-Where 10 is the number of virtual cpus.
+Where 10 is the number of virtual cpus. Note that using the mpiexec instead in Windows environment.
 
 For example:
 ```
