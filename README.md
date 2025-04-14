@@ -32,13 +32,14 @@ pip install -r requirements.txt
 
 To run the PyQuake3D script, use the following command:
 ```bash
-python -g --inputgeo <input_geometry_file> -p --inputpara <input_parameter_file>
+mpirun -np 10 python -g --inputgeo <input_geometry_file> -p --inputpara <input_parameter_file>
 ```
+Where 10 is the number of virtual cpus.
 For example:
 ```
 To execute benchmarks like BP5-QD, use:
 ```bash
-python src/main.py -g examples/cascadia/cascadia35km_ele4.msh -p examples/cascadia/parameter.txt
+mpirun -np 10 python src/main.py -g examples/cascadia/cascadia35km_ele4.msh -p examples/cascadia/parameter.txt
 ```
 Ensure you modify the input parameter (`parameter.txt`) as follows:
 - `Corefunc directory`: `bp5t_core`
