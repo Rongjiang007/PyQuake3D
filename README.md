@@ -9,7 +9,7 @@ Please refer to [Code Manual (PDF)](doc.pdf) for more details.
 
 -  3D non-planar quasi-dynamic earthquake cycle simulations
 -  Support for rate-and-state aging friction laws
--  Support for Hierarchical matrix calculation
+-  Support for Hierarchical matrix storage and calculation
 -  MPI acceleration support 
 -  Suitable for large model earthquake cycle simulation
 
