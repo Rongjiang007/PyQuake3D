@@ -59,4 +59,4 @@ luca.dalzilio@ntu.edu.sg
 
 [Videos of Earthquake cycle modeling of the Cascadia subduction zone](https://github.com/Rongjiang007/PyQuake3D/issues/2#issue)
 
-[Videos of Numerical simulation of main shock and aftershock](https://github.com/Rongjiang007/PyQuake3D/issues/3#issue)
+[Videos of Numerical simulation of main shock and aftershock](https://github.com/Rongjiang007/PyQuake3D/issues/4#issue)
